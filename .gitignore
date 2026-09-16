@@ -1,0 +1,29 @@
+# ---------- Node / Next.js (frontend) ----------
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.vercel
+
+# ---------- Python (backend) ----------
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/.env
+backend/.pytest_cache/
+backend/*.egg-info/
+backend/.mypy_cache/
+
+# ---------- Geral ----------
+.DS_Store
+*.log
+.idea/
+.vscode/
+*.swp
